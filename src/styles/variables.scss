@@ -1,0 +1,26 @@
+// colors
+:root {
+  --primary: #4A90E2;
+  --secondary: #F5A623;
+  --accent: #7ED321;
+
+  --success: #1ECA65;
+  --error: #E74C3C;
+  --warning: #F5A623;
+  --info: #4A90E2;
+
+  --light-background: #F9FAFB;
+  --dark-background: #2D3436;
+  --surface: #FFFFFF;
+
+  --button-confirm: #27AE60;
+  --button-cancel: #95A5A6;
+}
+
+// screens
+$screen-xs: 320px;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
