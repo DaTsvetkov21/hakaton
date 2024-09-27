@@ -7,6 +7,7 @@ type Props = {
   language?: string;
   errors?: Record<string, unknown>[];
 };
+
 type Emits = {
   (e: 'update:model-value', value: string): void;
   (e: 'update:errors', errors: Record<string, unknown>[]): void;
@@ -62,9 +63,15 @@ function onValidate(markers: Record<string, unknown>[]): void {
 <style lang="scss">
 .code-editor {
   height: 100%;
+  min-height: 350px;
 
   .decorationsOverviewRuler {
     display: none !important;
   }
+}
+
+.code-editor__editor {
+  height: 100%;
+  min-height: 350px;
 }
 </style>
